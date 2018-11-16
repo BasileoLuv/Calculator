@@ -1,5 +1,5 @@
 a = float(raw_input("Vvedite pervoe chislo =",))
-d = str(raw_input("Vvedite operator (+, -, *,/) ="))
+d = str(raw_input("Vvedite operator (+, -, *,/)="))
 b = float(raw_input("Vvedite vtoroe chislo =",))
 
 if d == '+':
