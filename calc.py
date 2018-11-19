@@ -8,12 +8,8 @@ if d == '+':
     e = float(a + b)
 elif d == '-':
     e = float(a - b)
-
-
 elif d == '*':
     e = str(a * b)
-
-
 elif d == '/':
     e = float(a / b)
 
