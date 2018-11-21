@@ -1,6 +1,6 @@
-Instruction Java Calculator
+#Instruction Java Calculator
 
-1) cd ../.../your directory with that calculator
-2) $ javac calculator.java
-3) $ java calculator 2_+_1 (example)
-4) $ it's all
+>* cd ../.../your directory with that calculator
+>* $ javac calculator.java
+>* $ java Calculator 2 + 1 (example)
+>* $ it's all
