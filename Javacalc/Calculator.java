@@ -1,13 +1,6 @@
-import java.util.Scanner;
-
-public class calculator {
-
-    private static Scanner read;
+public class Calculator {
 
     public static void main(String[] args) {
-
-        read = new Scanner(System.in);
-
         double x;
         double y;
         String operator;
@@ -29,4 +22,4 @@ public class calculator {
             System.out.println("= " + (x - y));
         }
     }
-} 
+}
