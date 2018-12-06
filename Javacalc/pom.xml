@@ -2,12 +2,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  
-  <groupId>java</groupId>
-  <artifactId>Calculator</artifactId>
-  <version>1.0-SNAPSHOT</version>
 
-<distributionManagement>
+  <groupId>ru.apache_maven</groupId>
+  <artifactId>testproject1</artifactId>
+  <version>20181206.07:12:27:116</version>
+
+  <distributionManagement>
    <snapshotRepository>
       <id>nexus</id>
       <url>http://localhost:8081/repository/maven-releases/</url>
@@ -21,10 +21,22 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
     <timestamp>${maven.build.timestamp}</timestamp>
-   <maven.build.timestamp.format>yyyyMMdd.HHmmssSS</maven.build.timestamp.format>
+   <maven.build.timestamp.format>yyyyMMdd.HH:mm:ss:SS</maven.build.timestamp.format>
   </properties>
 
   <build>
+<plugins>
+                   
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>                        
+                        <artifactId>maven-deploy-plugin</artifactId>
+                        <inherited>false</inherited>
+                        <configuration>
+                            <altDeploymentRepository>nexus::default::http://localhost:8081/repository/maven-releases/</altDeploymentRepository>
+                        </configuration>
+                    </plugin>
+                </plugins>
+
     <finalName>${project.artifactId}-${project.version}-${timestamp}</finalName>
      <resources>
             <resource>
