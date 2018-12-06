@@ -8,10 +8,10 @@
   <version>1.0-SNAPSHOT</version>
 
 <distributionManagement>
-   <Repository>
+   <snapshotRepository>
       <id>nexus</id>
       <url>http://localhost:8081/repository/maven-releases/</url>
-   </Repository>
+   </snapshotRepository>
 </distributionManagement>
 
 
