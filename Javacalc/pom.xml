@@ -25,18 +25,6 @@
   </properties>
 
   <build>
-<plugins>
-                   
-                    <plugin>
-                        <groupId>org.apache.maven.plugins</groupId>                        
-                        <artifactId>maven-deploy-plugin</artifactId>
-                        <inherited>false</inherited>
-                        <configuration>
-                            <altDeploymentRepository>nexus::default::http://localhost:8081/repository/maven-releases/</altDeploymentRepository>
-                        </configuration>
-                    </plugin>
-                </plugins>
-
     <finalName>${project.artifactId}-${project.version}-${timestamp}</finalName>
      <resources>
             <resource>
