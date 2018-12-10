@@ -1,0 +1,1 @@
+calculator build.date=20181210.11:16:57:490 .jar
