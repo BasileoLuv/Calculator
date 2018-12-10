@@ -5,7 +5,7 @@
 
   <groupId>java</groupId>
    <artifactId>Calculator</artifactId>
-   <version>${BUILD_DATE}</version>
+   <version>1.0</version>
 
   <distributionManagement>
    <snapshotRepository>
