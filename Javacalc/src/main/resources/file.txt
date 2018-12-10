@@ -1,1 +1,1 @@
-build.date=${pom.version} 
+${pom.version} 
