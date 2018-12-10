@@ -21,7 +21,7 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
     <timestamp>${maven.build.timestamp}</timestamp>
-   <maven.build.timestamp.format>yyyyMMdd.HH:mm:ss:SS</maven.build.timestamp.format>
+   <maven.build.timestamp.format>yyyyMMdd.HHmmss.SS</maven.build.timestamp.format>
   </properties>
 
   <build>
