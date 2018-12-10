@@ -1,1 +1,1 @@
-${pom.version}-${BUILD_NUMBER}
+${pom.version}
