@@ -10,7 +10,7 @@
   <distributionManagement>
    <snapshotRepository>
       <id>nexus</id>
-       <url>http://docker.for.mac.localhost:8081/repository/maven-releases</url>
+       <url>http://localhost:8081/repository/maven-releases</url>
    </snapshotRepository>
 </distributionManagement>
 
