@@ -32,7 +32,7 @@
                         <artifactId>maven-deploy-plugin</artifactId>
                         <inherited>false</inherited>
                         <configuration>
-                            <altDeploymentRepository>nexus::default::http://docker.for.mac.localhost:8081/repository/maven-releases/</altDeploymentRepository>
+                            <altDeploymentRepository>nexus::default::http://localhost:8081/repository/maven-releases/</altDeploymentRepository>
                         </configuration>
                     </plugin>
                 </plugins>
